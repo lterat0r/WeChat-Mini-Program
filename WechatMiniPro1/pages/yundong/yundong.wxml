@@ -1,0 +1,4 @@
+<!--pages/yundong/yundong.wxml-->
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/yundongzhuyi1" />
+</view>

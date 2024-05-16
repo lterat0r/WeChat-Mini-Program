@@ -1,0 +1,5 @@
+<!--pages/20/20.wxml-->
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/yidalafeng1" />
+</view>
+

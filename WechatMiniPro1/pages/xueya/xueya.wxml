@@ -1,0 +1,4 @@
+<!--pages/xueya/xueya.wxml-->
+<view class="container">
+  <image style="width: 650rpx; height: 1463rpx; display: block; box-sizing: border-box; left: 54rpx; top: 36rpx; position: absolute"  class="bg" src="https://muzi-03.xyz/muzi/666/xueya1" />
+</view>

@@ -1,0 +1,4 @@
+<!--pages/15/15.wxml-->
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/qingyangshaiqing1" />
+</view>

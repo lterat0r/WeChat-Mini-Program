@@ -1,0 +1,267 @@
+.header {
+    display: flex;
+  }
+  
+  .upload-btn {
+      width: 100%;
+      display: flex;    /*设置显示样式**/
+      align-items: center;    /**子view垂直居中*/
+      vertical-align: center; /**垂直居中*/
+      justify-content: center; /**内容居中*/
+      flex-direction:row; /*子view排列方式row--水平 column--垂直*/
+  
+  }
+  
+  .header > image {
+    width: 100%;
+  }
+  
+  
+  
+  .tools {
+    padding: 40rpx;
+  }
+  
+  .tools > .title {
+    font-size: 30rpx;
+    color: red;
+    text-align: center;
+  }
+  
+  .tools > .btns {
+    margin-top: 50rpx;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tools > .btns > .btn-item {
+    width: 300rpx;
+    flex: 1;
+  }
+  .uploadText{
+    display: block;
+    width: 90%;
+    height: 100rpx;
+    color: #89bfd7;
+    border: 2px #b2d5ff dashed;
+    border-radius: 36rpx;
+    text-align: center;
+    line-height: 100rpx;
+  }
+  
+  .btns{
+    width: 100%;
+    margin-top: 50rpx;
+  }
+  
+  .btns image{
+    width: 200rpx;
+    height: 210rpx;
+  }
+  
+  .left1{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+  }
+  .ph{
+    display: block;
+    width: 260rpx;
+    height: 80rpx;
+    background: #408feb;
+    color: white;
+    text-align: center;
+    line-height: 80rpx;
+    border-radius: 40rpx;
+    margin-top: 30rpx;
+  
+  }
+
+  page{
+    background-color: #f8fcff;
+}
+.header{
+    width: 100%;
+}
+.header image{
+width: 100%;
+height: 340rpx;
+}
+.center_img{
+    width: 100%;
+    padding: 0rpx 10rpx;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.center_img .bgclass{
+    width: 710rpx;
+    height: 260rpx;
+    position: absolute;
+    
+}
+.imgcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260rpx;
+    z-index: 999;
+}
+.addimg{
+    margin-top: 0rpx;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* font-size: 29rpx; */
+}
+.addimg .photo{
+    width: 50rpx;
+    height: 36rpx;
+    margin-right: 20rpx;
+}
+.addbtn{
+    margin-top: 40rpx;
+    width: 180rpx;
+    margin-top: 20rpx;
+    background-color: white;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border-radius: 30rpx;
+    color: #6fb3be;
+}
+.remark{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 50rpx;
+    color: #ff7352;
+    align-items: center;
+    margin-bottom: 10rpx;
+    height: 60rpx;
+}
+.remark image{
+    width: 36rpx;
+    height: 36rpx;
+    margin-right: 40rpx;
+}
+.botcard{
+    margin-top: 20rpx;
+    height: 300rpx;
+    background-color: white;
+    padding: 20rpx 0rpx;
+}
+.item_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item image{
+    width: 160rpx;
+    height: 160rpx;
+}
+.bottom{
+    width: 100%;
+    padding: 0rpx 50rpx;
+    box-sizing: border-box;
+}
+.bottom image{
+    margin-top: 50rpx;
+    width: 100%;
+    height: 220rpx;
+}
+.header {
+    display: flex;
+  }
+  
+  .upload-btn {
+      width: 100%;
+      display: flex;    /*设置显示样式**/
+      align-items: center;    /**子view垂直居中*/
+      vertical-align: center; /**垂直居中*/
+      justify-content: center; /**内容居中*/
+      flex-direction:row; /*子view排列方式row--水平 column--垂直*/
+  
+  }
+  
+  .header > image {
+    width: 100%;
+  }
+  
+  
+  
+  .tools {
+    padding: 40rpx;
+  }
+  
+  .tools > .title {
+    font-size: 30rpx;
+    color: red;
+    text-align: center;
+  }
+  
+  .tools > .btns {
+    margin-top: 50rpx;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tools > .btns > .btn-item {
+    width: 300rpx;
+    flex: 1;
+  }
+  .uploadText{
+    display: block;
+    width: 90%;
+    height: 100rpx;
+    color: #89bfd7;
+    border: 2px #b2d5ff dashed;
+    border-radius: 36rpx;
+    text-align: center;
+    line-height: 100rpx;
+  }
+  
+  .btns{
+    width: 100%;
+    margin-top: 50rpx;
+  }
+  
+  .btns image{
+    width: 200rpx;
+    height: 210rpx;
+  }
+  
+  .left1{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+  }
+  .ph{
+    display: block;
+    width: 260rpx;
+    height: 80rpx;
+    background: #408feb;
+    color: white;
+    text-align: center;
+    line-height: 80rpx;
+    border-radius: 40rpx;
+    margin-top: 30rpx;
+  
+  }
+  
+  

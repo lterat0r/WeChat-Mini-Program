@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+  }
+  
+  .header > image {
+    width: 100%;
+  }
+  
+  .upload-btn {
+    background: #e6f1fd;
+    color: #70b2fb;
+    text-align: center;
+    padding: 40rpx 0;
+    font-size: 32rpx;
+    border-radius: 20rpx;
+    margin: 40rpx 40rpx 0;
+  }
+  
+  .tools {
+    padding: 40rpx;
+  }
+  
+  .tools > .title {
+    font-size: 30rpx;
+    color: #333333;
+  }
+  
+  .tools > .btns {
+    margin-top: 20rpx;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tools > .btns > .btn-item {
+    width: 300rpx;
+    flex: 1;
+  }
+  

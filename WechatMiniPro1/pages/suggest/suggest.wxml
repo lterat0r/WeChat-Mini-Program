@@ -1,0 +1,35 @@
+<!-- pages/index/index.wxml -->
+<!-- <image src="data:image/png;base64,{{xxhnb}}" style="width: 750rpx; height: 148rpx; display: inline-block; box-sizing: border-box"></image>
+
+  <image class="image_frame" src="{{tupian}}" mode="aspectFill" style="width: 750rpx; height: 793rpx; display: inline-block; box-sizing: border-box">
+ </image> -->
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/beijing" />
+  <view class="title" bindtap="reLoadImage">分析建议：</view>
+  <view class="btns">
+
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/yaoping" mode="widthFix" bindtap="clickme4" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/yingshi" mode="widthFix" bindtap="clickme1" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/jinjishixiang" mode="widthFix" bindtap="clickme2" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/zhiliao" mode="widthFix" bindtap="clickme3" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/rengongzhineng" mode="widthFix" bindtap="get_states" />
+    </view>
+  </view>
+</view>
+
+<!--人工算法测试
+<view>
+<button bindtap="get_states">get_status</button>
+<view wx:if="{{status!=''}}">now_status:{{status}}</view>
+<view wx:else>please click button</view>
+</view>
+-->

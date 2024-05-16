@@ -1,0 +1,34 @@
+<!--pages/sugneike4/sugneike4.wxml-->
+
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/beijing" />
+  
+  <view class="title" bindtap="reLoadImage">内科建议：</view>
+
+  <view class="btns">
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/xueya" mode="widthFix" bindtap="clickme1" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/xuetang" mode="widthFix" bindtap="clickme2" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/yaowu" mode="widthFix" bindtap="clickme3" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/bingyin" mode="widthFix" bindtap="clickme4" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/qita" mode="widthFix" bindtap="clickme5" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/bingfa" mode="widthFix" bindtap="clickme6" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/yiban" mode="widthFix" bindtap="clickme7" />
+    </view>
+  </view>
+</view>
+
+
+

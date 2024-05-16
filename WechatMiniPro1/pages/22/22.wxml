@@ -1,0 +1,4 @@
+<!--pages/22/22.wxml-->
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/jingkouqianghuli2" />
+</view>

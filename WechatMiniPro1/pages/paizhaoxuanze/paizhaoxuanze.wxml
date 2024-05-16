@@ -1,0 +1,12 @@
+<image src="https://muzi-03.xyz/muzi/666/paizhaoshangmian"  style="width: 750rpx; height: 455rpx; display: inline-block; box-sizing: border-box"></image>
+<view class="pic-container" style="width: 643rpx; height: 263rpx; display: block; box-sizing: border-box">
+        <view class="pic-warp">
+            <view class="pic-list" style="width: 640rpx; height: 256rpx; display: block; box-sizing: border-box">
+                <view class="pic-btn" hidden="{{isHideCardZ}}" catchtap="chooseImage" data-type="z" style="width: 643rpx; height: 251rpx; display: block; box-sizing: border-box">
+                    <image src="https://muzi-03.xyz/muzi/666/xuanzrtupian" style="width: 504rpx; height: 193rpx; display: inline-block; box-sizing: border-box; left: 129rpx; top: 52rpx; position: relative"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="upload-btn" bindtap="paizhao" style="width: 750rpx; height: 263rpx; display: block; box-sizing: border-box"> <image src="https://muzi-03.xyz/muzi/666/paizhaoshangchuan" style="width: 504rpx; height: 193rpx; display: inline-block; box-sizing: border-box; position: relative; left: 132rpx; top: 22rpx"></image></view>

@@ -1,0 +1,32 @@
+<!--pages/medical4/medical4.wxml-->
+
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/beijing" />
+  
+  <view class="title" bindtap="reLoadImage">药品建议：</view>
+
+  <view class="btns">
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/tuoshuiyao" mode="widthFix" bindtap="clickme1" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/kongzhixueya" mode="widthFix" bindtap="clickme2" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/naobaohuji" mode="widthFix" bindtap="clickme3" />
+    </view>
+
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/zhixueyaowu" mode="widthFix" bindtap="clickme4" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/huoxuehuayu" mode="widthFix" bindtap="clickme5" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/yidaosu" mode="widthFix" bindtap="clickme6" />
+    </view>
+    
+  </view>
+</view>
+
+

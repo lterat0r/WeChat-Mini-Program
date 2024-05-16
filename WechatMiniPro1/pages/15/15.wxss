@@ -1,0 +1,41 @@
+/* pages/15/15.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 40rpx;
+    box-sizing: border-box;
+  }
+  
+  .container > .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+  }
+  
+  .container > .title {
+    font-size: 34rpx;
+    color: #000000;
+    margin-bottom: 40rpx;
+    z-index: 1;
+  }
+  
+  .container > .btns {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+  }
+  
+  .container > .btns > .btn-item {
+    width: 100%;
+    margin-bottom: 40rpx;
+    display: flex;
+  }
+  
+  .container > .btns > .btn-item > image {
+    width: 100%;
+    border-radius: 15rpx;
+  }

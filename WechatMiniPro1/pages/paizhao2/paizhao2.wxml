@@ -1,0 +1,16 @@
+<!--pages/paizhao2/paizhao2.wxml-->
+<camera binderror="handleCameraError" device-position="{{devicePosition}}" flash="off" style="width: 100%; height: 80vh; position: relative; left: 0rpx; top: -12rpx">
+<view>
+    <cover-image class="line" src="https://muzi-03.xyz/muzi/666" style="width: 521rpx; height: 521rpx; display: block; box-sizing: border-box; position: relative; left: 115rpx; top: 216rpx"></cover-image>
+</view>
+</camera>
+
+<button class="tapimg1"type="upload-btn " bindtap="takePhoto"  style="width: 750rpx; height: 244rpx; display: block; box-sizing: border-box; left: 0rpx; top: -12rpx; position: relative"> 
+<image class="tapimg1" src='https://muzi-03.xyz/muzi/666/anniu'></image></button>
+
+<view class="error-handler" wx:if="{{!authCamera}}">
+    <button class="nobtn" openType="openSetting">打开相机授权</button>
+</view>
+
+
+

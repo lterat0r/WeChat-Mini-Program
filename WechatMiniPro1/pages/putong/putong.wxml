@@ -1,0 +1,17 @@
+<!-- pages/index/index.wxml -->
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/beijing" />
+<view class="header">
+  <image src="https://muzi-03.xyz/muzi/666/test" mode="widthFix"></image>
+</view>
+<view class="upload-btn" bindtap="takePhoto1">上传图片1</view>
+<view class="upload-btn" bindtap="takePhoto2">上传图片2</view>
+<view class="tools">
+
+
+</view>
+<view class='imagebox2'>
+  <image src="data:image/png;base64,{{xxhnb}}" style="width: 750rpx; height: 0rpx; display: inline-block; box-sizing: border-box"></image>
+  <image class="image_frame" src="{{tupian}}" mode="aspectFill" style="width: 750rpx; height: 793rpx; display: inline-block; box-sizing: border-box"></image>
+</view>
+</view>

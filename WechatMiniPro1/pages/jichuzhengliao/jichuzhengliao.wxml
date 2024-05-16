@@ -1,0 +1,46 @@
+<!-- pages/index/index.wxml -->
+<view class="header">
+    <image src="/static/images/素材/onehead.png"></image>
+</view>
+<view class="center_img" bindtap="aaa">
+    <image class="bgclass" src="/static/images/素材/onecenter.png" />
+    <view class="imgcontent">
+        <view class="addimg">
+
+            <image src="/static/images/素材/hh.png" class="photo"></image>
+            <view>您还未上传图片</view>
+        </view>
+        <view class="addbtn">上传图片</view>
+    </view>
+
+</view>
+<view class="remark">
+    <image src="https://muzi-03.xyz/muzi/666/remark"></image>
+    <view>注意：请上传图片后获取一下信息</view>
+</view>
+<view class="botcard" >
+    <view class="item_list">
+        <view class="item" bindtap="reLoadImage">
+            <image src="https://muzi-03.xyz/muzi/666/item1"></image>
+            <view>获取图片</view>
+        </view>
+        <view class="item" bindtap="get_states1">
+            <image src="https://muzi-03.xyz/muzi/666/item2"></image>
+            <view>获取信息</view>
+        </view>
+        <view class="item" bindtap="clickme1">
+            <image src="https://muzi-03.xyz/muzi/666/item3"></image>
+            <view>分析建议</view>
+        </view>
+
+    </view>
+
+    <view class="bottom">
+    <image src="https://muzi-03.xyz/muzi/666/bttn"></image>
+    </view>
+</view>
+<view style="width: 750rpx; height: 174rpx; display: block; box-sizing: border-box"></view>
+<view class='imagebox2'>
+ <!-- <image src="data:image/png;base64,{{xxhnb}}" style="width: 750rpx; height: 100px; display: inline-block; box-sizing: border-box"></image>-->
+  <image class="image_frame" src="{{tupian}}" mode="aspectFill" style="width: 750rpx; height: 793rpx; display: inline-block; box-sizing: border-box"></image>
+</view>

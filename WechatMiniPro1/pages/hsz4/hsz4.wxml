@@ -1,0 +1,4 @@
+<!--pages/hsz4/hsz4.wxml-->
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/naishizhichuxue4" />
+</view>

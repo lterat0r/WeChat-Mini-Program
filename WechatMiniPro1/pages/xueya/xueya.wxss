@@ -1,0 +1,49 @@
+/* pages/xueya/xueya.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+
+.container > .bg {
+  width: 100%;
+  height: 250%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.container > .title {
+  font-size: 34rpx;
+  color: #000000;
+  margin-bottom: 40rpx;
+  z-index: 1;
+}
+
+.container > .btns {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.container > .btns > .btn-item {
+  width: 100%;
+  margin-bottom: 40rpx;
+  display: flex;
+}
+
+.container > .btns > .btn-item > image {
+  width: 100%;
+  border-radius: 15rpx;
+}
+.container  {
+    display: flex;    /*设置显示样式**/
+    align-items: center;    /**子view垂直居中*/
+    vertical-align: center; /**垂直居中*/
+    justify-content: center; /**内容居中*/
+    flex-direction:row; /*子view排列方式row--水平 column--垂直*/
+
+}

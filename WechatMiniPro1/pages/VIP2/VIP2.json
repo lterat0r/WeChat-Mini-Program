@@ -1,0 +1,9 @@
+{
+
+    "usingComponents": {},
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#eeeeee",
+    "navigationBarTitleText": "光影助手",
+    "navigationBarTextStyle": "white"
+  }
+  

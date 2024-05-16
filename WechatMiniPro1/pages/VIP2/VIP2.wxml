@@ -1,0 +1,41 @@
+<!--pages/VIP2/VIP2.wxml-->
+<view class="header">
+  <image src="https://muzi-03.xyz/muzi/666/banner" mode="widthFix" style="width: 750rpx; height: 466rpx; display: block; box-sizing: border-box"></image>
+</view>
+<!-- <view class="upload-btn" bindtap="chooseImage">上传电子CT1</view>
+<view class="upload-btn" bindtap="chooseImage1">上传电子CT2</view> -->
+<view class="shangchuan"  style="width: 750rpx; height: 207rpx; display: flex; box-sizing: border-box">
+     <image bindtap="chooseImage"  src="https://muzi-03.xyz/muzi/666/shangchuantupian1" mode="widthFix"  style="width: 380rpx; height: 218rpx; display: block; box-sizing: border-box"></image>
+
+     <image bindtap="chooseImage1" src="https://muzi-03.xyz/muzi/666/shangchuantupian2" mode="widthFix"  style="width: 378rpx; height: 209rpx; display: block; box-sizing: border-box"></image>
+   </view>
+   <image src="https://muzi-03.xyz/muzi/666/shangchuanliangzu" mode="widthFix"  style="width: 750rpx; height: 36rpx; display: block; box-sizing: border-box"></image>
+  <!-- <view class="title" style="width: 750rpx; height: 50rpx; display: block; box-sizing: border-box;text-align: center; color: red; margin-top: 30rpx; margin-bottom: 30rpx;">请上传两组病例后获取数据</view> -->
+  
+  <view class="btns">
+    <!-- <image class="btn-item" src="https://muzi-03.xyz/muzi/666/huoqutupian"  /> -->
+    <!-- <image style="width: 411rpx; height: 153rpx; display: block; box-sizing: border-box"  class="btn-item" src="https://muzi-03.xyz/muzi/666/huoquxinxiquantu"  /> -->
+   <view class="left1"  bindtap="reLoadImage">
+     <image src="https://muzi-03.xyz/muzi/666/asd1" mode="widthFix" ></image>
+     <text class="ph">获取图片</text>
+   </view>
+
+   <view class="left1"  bindtap="clickme1">
+     <image src="https://muzi-03.xyz/muzi/666/asd2" mode="widthFix" ></image>
+     <text class="ph">分析建议</text>
+   </view>
+  </view>
+
+  <!-- <view class="btns" style="width: 750rpx; height: 188rpx; display: flex; box-sizing: border-box">
+    <image style="width: 368rpx; height: 174rpx; display: block; box-sizing: border-box"  class="btn-item" src="https://muzi-03.xyz/muzi/666/huoqutupian" mode="widthFix"  />
+  </view>
+
+
+<view class="btns" style="width: 750rpx; height: 188rpx; display: flex; box-sizing: border-box">
+<image style="width: 397rpx; height: 176rpx; display: block; box-sizing: border-box"  class="btn-item" src="https://muzi-03.xyz/muzi/666/fenxijianyi" mode="widthFix"  /></view> -->
+
+<view class='imagebox2' style="width: 750rpx; height: 814rpx; display: block; box-sizing: border-box">
+  <image src="data:image/png;base64,{{xxhnb}}" style="width: 750rpx; height: 0rpx; display: inline-block; box-sizing: border-box"></image>
+  <image class="image_frame" src="{{tupian}}" mode="aspectFill" style="width: 750rpx; height: 793rpx; display: inline-block; box-sizing: border-box"></image>
+</view>
+<image class="bobg" src="https://muzi-03.xyz/muzi/666/bobg"></image>

@@ -1,0 +1,4 @@
+<!--pages/bingyin/bingyin.wxml-->
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/bingyin1" />
+</view>

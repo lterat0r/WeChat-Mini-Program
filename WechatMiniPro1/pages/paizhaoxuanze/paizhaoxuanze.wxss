@@ -1,0 +1,9 @@
+/* pages/paizhaoxuanze/paizhaoxuanze.wxss */
+.upload-btn {
+    display: flex;    /*设置显示样式**/
+    align-items: center;    /**子view垂直居中*/
+    vertical-align: center; /**垂直居中*/
+    justify-content: center; /**内容居中*/
+    flex-direction:row; /*子view排列方式row--水平 column--垂直*/
+
+}

@@ -1,0 +1,16 @@
+<!--pages/2/2.wxml-->
+
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/beijing" />
+  
+  <view class="title" bindtap="reLoadImage">脱水药及利尿药：</view>
+
+  <view class="btns">
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/xiaobengdi" mode="widthFix" bindtap="clickme1" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/ganluchun" mode="widthFix" bindtap="clickme2" />
+    </view>    
+  </view>
+</view>

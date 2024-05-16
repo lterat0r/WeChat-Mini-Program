@@ -1,0 +1,28 @@
+<view class="top">
+    <image src="https://muzi-03.xyz/muzi/666/tow_top" class="timage"></image>
+    <view class="cardList">
+        <view class="item">
+            <image src="https://muzi-03.xyz/muzi/666/right" class="img"/>
+            <view>品质保障</view>
+        </view>
+        <view class="item">
+            <image src="https://muzi-03.xyz/muzi/666/right" class="img"/>
+            <view>优质服务</view>
+        </view>
+        <view class="item">
+            <image src="https://muzi-03.xyz/muzi/666/right" class="img"/>
+            <view>专业安全</view>
+        </view>
+        <view class="item">
+            <image src="https://muzi-03.xyz/muzi/666/right" class="img"/>
+            <view>效率保障</view>
+        </view>
+    </view>
+</view>
+<view class="bgbtn" bindtap="jichu">
+<image src="https://muzi-03.xyz/muzi/666/girl"></image>
+</view>
+<view class="bgbtn" bindtap="clickme2">
+<image src="https://muzi-03.xyz/muzi/666/boy"></image>
+</view>
+<image class="bobg" src="https://muzi-03.xyz/muzi/666/bobg"></image>

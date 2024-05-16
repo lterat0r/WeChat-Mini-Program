@@ -1,0 +1,23 @@
+<!--pages/analyze/pageOne/pageOne.wxml-->
+<!-- <text>第一级</text> -->
+
+<view class="container">
+  <image class="bg" src="https://muzi-03.xyz/muzi/666/beijing" />
+  <view class="title" bindtap="reLoadImage">第一级</view>
+  <view class="btns">
+
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/yaoping" mode="widthFix" bindtap="clickme4" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/yingshi" mode="widthFix" bindtap="clickme1" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/jinjishixiang" mode="widthFix" bindtap="clickme2" />
+    </view>
+    <view class="btn-item">
+      <image src="https://muzi-03.xyz/muzi/666/zhiliao" mode="widthFix" bindtap="clickme3" />
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,94 @@
+.header {
+    display: flex;
+  }
+  
+  .header > image {
+    width: 100%;
+  }
+  
+  .upload-btn {
+    /* background: #e6f1fd; */
+    color: #70b2fb;
+    text-align: center;
+    padding: 40rpx 0;
+    font-size: 32rpx;
+    border-radius: 36rpx;
+    margin: 40rpx 40rpx 0;
+    border: 1px #70b2fb dashed;
+  }
+  
+  .tools {
+    padding: 40rpx;
+  }
+  
+  .tools > .title {
+    font-size: 30rpx;
+    color: #333333;
+  }
+  
+  .tools > .btns {
+    margin-top: 20rpx;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tools > .btns > .btn-item {
+    width: 300rpx;
+    flex: 1;
+  }
+
+  .btns {
+    margin-top: 50rpx;
+    display: flex;
+    justify-content: space-between;
+  }
+.title {
+    font-size: 30rpx;
+    color: #333333;
+  }
+
+
+  .btns{
+    width: 100%;
+    margin-top: 50rpx;
+  }
+  
+  .btns image{
+    width: 200rpx;
+    height: 210rpx;
+  }
+  
+  .left1{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+  }
+  .ph{
+    display: block;
+    width: 260rpx;
+    height: 80rpx;
+    background: #408feb;
+    color: white;
+    text-align: center;
+    line-height: 80rpx;
+    border-radius: 40rpx;
+    margin-top: 30rpx;
+  
+  }
+  .bobg {
+    height: 300rpx;
+    width: 100%;
+}
+.remark{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 50rpx;
+    color: #ff7352;
+    align-items: center;
+    margin-bottom: 10rpx;
+    height: 60rpx;
+}
